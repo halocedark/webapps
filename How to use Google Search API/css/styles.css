@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "arial", sans-serif;
+}
+
+.container {
+	margin: 70px auto;
+}
+
+#GoogleSearchForm
+{
+	margin: 0 auto;
+	text-align: center;
+}
+#GoogleSearchForm input
+{
+	margin: 5px 0;
+	border-radius: 20px;
+	border: 1px solid transparent;
+	outline: 0;
+	padding: 5px 10px;
+	width: 250px;
+	background: #262626;
+	color: #fff;
+	-webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+#GoogleSearchForm input[type='text']:focus
+{
+	background: #fff;
+	color: #4d4d4d;
+	border: 1px solid #333333;	
+	width: 300px;
+}
+#GoogleSearchForm input[type='submit']
+{
+	width: 120px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-box-shadow: 0 1px 5px #262626,
+				0 2px 5px #262626,
+				0 3px 5px #262626,
+				0 4px 5px #262626,
+				0 5px 5px #262626,
+				0 6px 5px #262626,
+				0 7px 5px #262626,
+				0 8px 5px #262626,
+				0 9px 5px #262626,
+				0 10px 5px #262626;
+    box-shadow: 0 1px 5px #262626,
+				0 2px 5px #262626,
+				0 3px 5px #262626,
+				0 4px 5px #262626,
+				0 5px 5px #262626,
+				0 6px 5px #262626,
+				0 7px 5px #262626,
+				0 8px 5px #262626,
+				0 9px 5px #262626,
+				0 10px 5px #262626;
+}
+#GoogleSearchForm input[type='submit']:hover
+{
+	letter-spacing: 3px;
+	width: 150px;
+	background: #fff;
+	color: #4d4d4d;
+	border: 1px solid #333333;
+}
+
+.search-results
+{
+	margin: 20px 0;
+	padding: 10px;
+	display: none;
+	background: -webkit-gradient(linear, left bottom, right top, from(#051937), color-stop(#004d7a), color-stop(#008793), color-stop(#00bf72), to(#a8eb12));
+    background: -webkit-linear-gradient(left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background: -o-linear-gradient(left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    border-radius: 20px;
+}
+.search-results .items
+{
+    color: #fff;
+    padding: 10px;
+}
+
