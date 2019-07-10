@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "arial", sans-serif;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(230, 242, 255,0.3); 
+}
+/* Track Active */
+::-webkit-scrollbar-track:active {
+    background: rgba(230, 242, 255,0.8); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(204, 153, 255,0.2); 
+    border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(204, 255, 230,1); 
+}
+/* Start Style Default HTML5 Elements */
+
+code {
+    background: rgba(253, 39, 0, 0.1);
+    text-align: center;
+    border-radius: 5px;
+    padding: 0 8px;
+    margin: 0;
+    color: red;
+    font-size: 100%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    cursor: text;
+    box-shadow: 0px 0px 3px rgba(253, 39, 0, 0.5);
+}
+
+/* End Style Default HTML5 Elements */
+.canvas {
+    margin: 10px 0;
+    background: #262673;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
