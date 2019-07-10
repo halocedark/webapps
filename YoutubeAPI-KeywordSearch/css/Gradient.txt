@@ -1,0 +1,9 @@
+background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);   // To right top
+
+background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12); // To right
+
+background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);   // To right bottom
+
+background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);    // To bottom
+
+background-image: linear-gradient(to top, #051937, #004d7a, #008793, #00bf72, #a8eb12);   // To top
