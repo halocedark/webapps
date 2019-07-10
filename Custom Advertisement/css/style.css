@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+	font-family: sans-serif;
+    font-size: 1.03em;
+    letter-spacing: 0.05em;
+}
+body {
+    background: url('../img/6.jpg');
+    color: aliceblue;
+}
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(230, 242, 255,0.3); 
+}
+/* Track Active */
+::-webkit-scrollbar-track:active {
+    background: rgba(230, 242, 255,0.8); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(204, 153, 255,0.2); 
+    border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(204, 255, 230,1); 
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(7,7,7,0.5);
+    width: 100%;
+    height: 100%;
+    color: black;
+    z-index: 999;
+    display: none;
+}
+.overlay .content {
+    background: white;
+    width: 500px;
+    max-width: 500px;
+    height: auto;
+    margin: 10em auto;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.5s ease-in-out;
+}
+.overlay .content:hover {
+    box-shadow: 0px 0px 10px lightyellow; 
+}
+.overlay .content .contentHeader{
+    background: lightblue;
+    text-align: center;
+}
+.overlay .content .contentBackground {
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 380px;  
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.overlay .content .contentBackground:hover {
+    background-color: white;
+    background-blend-mode: hard-light;
+}
+.overlay .content .contentCaption {
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    color: white;
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+    left: 8px;
+    padding: 0.5em;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.overlay .content .contentFooter {
+    background-color: lightgreen;
+    text-align: center;
+}
