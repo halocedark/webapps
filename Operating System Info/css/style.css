@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.os-info 
+{
+	width: 500px;
+	height: 300px;
+	margin: 50px auto;
+	overflow: auto;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	background: linear-gradient(to right top, #e2bded, #b3c1f5, #85c4ea, #6fc2ce, #78bcab);
+}
+
+.os-info .info-items
+{
+	padding: 5px;
+	margin: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 5px #000000;
+}
