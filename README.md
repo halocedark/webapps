@@ -7,4 +7,4 @@
 - Facebook: https://www.facebook.com/haloce.dark
 - Email: not provided for security
 
-Thank you for using our designs :)
+Thank you for using our applications :)
