@@ -1,0 +1,21 @@
+/*Start Fonts*/
+
+/*End Fonts*/
+/*Start Colors*/
+:root
+{
+	--main-color: #47d147;
+}
+/*End Colors*/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.converted-images img
+{
+	width: 250px;
+	height: 250px;
+	margin-right: .5rem;
+	display: inline-block;
+}
